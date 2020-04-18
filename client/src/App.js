@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       {passwords.length ? (
         <div>
-          <h1>5 Passwords.</h1>
+          <h1>Here are 5 passwords!</h1>
           <ul className="passwords">
             {/* Generally not OK to use 'index' as a key.
                 But OK here because there will be the same # of passwords,
