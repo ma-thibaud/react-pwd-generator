@@ -20,10 +20,11 @@ function App() {
         <div>
           <h1>5 Passwords.</h1>
           <ul className="passwords">
+            {/* Generally not OK to use 'index' as a key.
+                But OK here because there will be the same # of passwords,
+                and they never change positions in the array.
+            */}
             {passwords.map((password, index) => (
-              // Generally not OK to use 'index' as a key.
-              // But OK here because there will be the same # of passwords,
-              // and they never change positions in the array.
               <li key={index}>
                 {password}
               </li>
