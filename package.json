@@ -11,7 +11,7 @@
   "author": "ma-thibaud",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "password-generator": "^2.2.3"
   },
   "devDependencies": {
